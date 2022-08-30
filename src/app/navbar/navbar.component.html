@@ -1,0 +1,35 @@
+  <nav class="navbar navbar-expand-lg bg-light  justify-content-between">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="assets/images/icon.png" alt="" width="80" height="50" class="d-inline align-text-top">
+    </a>
+
+    <button class="navbar-toggler" type="button"
+     data-bs-toggle="collapse" 
+     data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-primary" id="navmenu">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a routerLink="/"  routerLinkActive="active"  class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a  routerLink="/player"  routerLinkActive="active" class="nav-link">players</a>
+      </li>
+      <li class="nav-item">
+        <a *ngIf="!db.loggedin()"  routerLink="/login"  routerLinkActive="active" class="nav-link">login</a>
+      </li>
+      <li class="nav-item">
+        <a   *ngIf="!db.loggedin()" routerLink="/register"  routerLinkActive="active" class="nav-link">Register</a>
+      </li>
+
+      <li class="nav-item">
+        <a  *ngIf="db.loggedin()" routerLink="/register"  routerLinkActive="active" class="nav-link" (click)="db.logout()">Logout</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+

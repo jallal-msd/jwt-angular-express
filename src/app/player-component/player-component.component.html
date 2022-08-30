@@ -1,0 +1,51 @@
+   <main>
+        <div class="flex flex-col items-center justify-center my-20 p-5  ">
+            
+            <h1 class="text-3xl">Welcome</h1>
+            <p class="text-md font-normal">Create your own wrestler </p>
+            <form (ngSubmit) ="insertData()" class="flex flex-col my-10 rounded-md  space-y-5  p-6">
+
+                   <div class="form-group">
+                       <label for="identifier">identifier</label>
+                        <input  [(ngModel)] ="players.identifier" type="text" name="identifier" class="p-1 form-control  border-b-2 border-neutral-900  ">
+                       
+                   </div> 
+                
+                  <div class="form-group">
+                       <label for="first_name">FirstName </label>
+                        <input  [(ngModel)] ="players.first_name" type="text" name="first_name" class="p-1 form-control  border-b-2 border-neutral-900">
+      
+                   </div> 
+                
+                  <div class="form-group">
+                       <label for="last_name">LastName</label>
+                        <input  [(ngModel)] ="players.last_name" type="text" name="last_name" class="p-1 form-control  border-b-2 border-neutral-900">
+
+                     </div> 
+                
+                  <div class="form-group">
+                       <label for="team">team</label>
+                        <input  [(ngModel)] ="players.team" type="text" name="team" class="p-1 form-control  border-b-2 border-neutral-900">
+
+                     </div> 
+                
+                  <div class="form-group">
+                       <label for="position">Name</label>
+                        <input  [(ngModel)] ="players.position" type="text" name="name" class="p-1 form-control  border-b-2 border-neutral-900">
+
+                     </div> 
+                
+                  <div class="form-group">
+                       <label for="image">image</label>
+                        <input  [(ngModel)] ="players.image"  type="file" name="image" class="p-1 form-control  border-b-2 border-neutral-900">
+
+                     </div> 
+                
+
+                 
+                <input  type="submit" class="bg-emerald-300 rounded-md p-5" value="create">
+            </form>
+        </div>
+
+
+    </main>

@@ -1,0 +1,26 @@
+<section >
+    <div class="container">
+           <div class="row">
+               <div class="col-md-6 mx-auto">
+                   <div class="card rounded text-dark  ">
+                       <div class="card-header text-center ">
+                           <h3 class=" mb-0 lead">Login</h3>
+                       </div>
+                       <div class="card-body">
+                           <form  class="form">
+                               <div class="from-group  py-3 ">
+                                   <label for="email">email</label>
+                                   <input  [(ngModel)] ="user.email" type="text"  name ="email" class="form-control rounded-0">
+                               </div>
+                                <div class="from-group  py-3">
+                                   <label for="password">password</label>
+                                   <input   [(ngModel)] ="user.password" type="password" name="password "  class="form-control rounded-0">
+                               </div>
+                               <button type="button"  (click) ="login()" class="btn btn-primary  float-right">Log In</button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+    </div>
+</section>

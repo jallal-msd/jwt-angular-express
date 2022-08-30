@@ -1,0 +1,20 @@
+
+<div class="row text-center g-4">
+
+			<div *ngFor="let pl of Players" class="col-md-4">
+				<div class="card bg-dark text-light">
+					<div class="card-body text-center">
+						<div class="h1 mb-3">
+						
+						</div>
+						
+						<img src="assets/images/{{pl.image}} " class="img-fluid w-25 "  alt="">
+						<p class="card-text">{{pl.first_name}} {{pl.last_name}}</p>
+						<p class="card-text lead text-warning ">{{pl.team}} </p>
+						<p class="card-text lead text-warning ">{{pl.position}} </p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
