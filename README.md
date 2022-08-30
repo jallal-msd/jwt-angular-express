@@ -1,4 +1,8 @@
-# WrstlingFnd
+using jwt to login and register 
+make private route to only login users
+player data stored in json file players.json
+
+# soccer player
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
