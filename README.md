@@ -1,6 +1,6 @@
-using jwt to login and register 
-make private route to only login users
-player data stored in json file players.json
+#using jwt to login and register 
+#make private route to only login users
+#player data stored in json file players.json
 
 # soccer player
 
