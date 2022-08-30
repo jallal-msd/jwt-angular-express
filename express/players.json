@@ -1,0 +1,188 @@
+[
+    {
+        
+        "first_name": "Hector",
+        "last_name": "Bellerin",
+        "team": "Arsenal",
+        "position": "Defender",
+        "image": "arsenal.png"
+    },
+    {
+        
+        "first_name": "Petr",
+        "last_name": "Cech",
+        "team": "Arsenal",
+        "position": "Goalkeeper",
+        "image": "arsenal.png"
+    },
+    {
+        
+        "first_name": "Olivier",
+        "last_name": "Giroud",
+        "team": "Arsenal",
+        "position": "Striker",
+        "image": "arsenal.png"
+    },
+    {
+        
+        "first_name": "Alex",
+        "last_name": "Iwobi",
+        "team": "Arsenal",
+        "position": "Midfielder 2",
+        "image": "arsenal.png"
+    },
+    {
+        
+        "first_name": "Laurent",
+        "last_name": "Koscielny",
+        "team": "Arsenal",
+        "position": "Defender",
+        "image": "arsenal.png"
+    },
+    {
+        
+        "first_name": "Mesut",
+        "last_name": "Ozil",
+        "team": "Arsenal",
+        "position": "Midfielder 1",
+        "image": "arsenal.png"
+    },
+    {
+        
+        "first_name": "Alexis",
+        "last_name": "Sanchez",
+        "team": "Arsenal",
+        "position": "Striker",
+        "image": "arsenal.png"
+    },
+ 
+    {
+        
+        "first_name": "Marcos",
+        "last_name": "Alonso",
+        "team": "Chelsea",
+        "position": "Defender",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Cesar",
+        "last_name": "Azpilicueta",
+        "team": "Chelsea",
+        "position": "Defender",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Gary",
+        "last_name": "Cahill",
+        "team": "Chelsea",
+        "position": "Defender",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Diego",
+        "last_name": "Costa",
+        "team": "Chelsea",
+        "position": "Striker",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Thibaut",
+        "last_name": "Courtois",
+        "team": "Chelsea",
+        "position": "Goalkeeper",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Eden",
+        "last_name": "Hazard",
+        "team": "Chelsea",
+        "position": "Midfielder 1",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Nemanja",
+        "last_name": "Matic",
+        "team": "Chelsea",
+        "position": "Midfielder 2",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "Victor",
+        "last_name": "Moses",
+        "team": "Chelsea",
+        "position": "Midfielder 2",
+        "image": "chelsea.png"
+    },
+    {
+        
+        "first_name": "",
+        "last_name": "Willian",
+        "team": "Chelsea",
+        "position": "Midfielder 1",
+        "image": "chelsea.png"
+    },
+   
+    {
+        
+        "first_name": "Daniel",
+        "last_name": "Amartey",
+        "team": "Leicester",
+        "position": "Midfielder 2",
+        "image": "leicester.png"
+    },
+    {
+        
+        "first_name": "Robert",
+        "last_name": "Huth",
+        "team": "Leicester",
+        "position": "Defender",
+        "image": "leicester.png"
+    },
+    {
+        
+        "first_name": "Riyad",
+        "last_name": "Mahrez",
+        "team": "Leicester",
+        "position": "Midfielder 2",
+        "image": "leicester.png"
+    },
+    {
+        
+        "first_name": "Wes",
+        "last_name": "Morgan",
+        "team": "Leicester",
+        "position": "Defender",
+        "image": "leicester.png"
+    },
+    {
+        
+        "first_name": "Kasper",
+        "last_name": "Schmeichel",
+        "team": "Leicester",
+        "position": "Goalkeeper",
+        "image": "leicester.png"
+    },
+    {
+        
+        "first_name": "Islam",
+        "last_name": "Slimani",
+        "team": "Leicester",
+        "position": "Striker",
+        "image": "leicester.png"
+    },
+    {
+        
+        "first_name": "Jamie",
+        "last_name": "Vardy",
+        "team": "Leicester",
+        "position": "Striker",
+        "image": "leicester.png"
+    }   
+]
